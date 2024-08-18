@@ -18,3 +18,12 @@ Try running the following commands:
 ![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\lineage_graph_1.jpg)
 ![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\lineage_graph_2.jpg)
 ![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\lineage_graph_3.jpg)
+
+### Snapshot lineage Grahps of Table Dim (intermediete):
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_1.jpg)
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_2.jpg)
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_3.jpg)
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_4.jpg)
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_5.jpg)
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_6.jpg)
+![diagram](C:\Users\LENOVO\Desktop\Project2\dbt\data_warehouse\intermediete_lineage_graph_7.jpg)
