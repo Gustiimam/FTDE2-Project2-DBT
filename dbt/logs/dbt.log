@@ -1,0 +1,194 @@
+[0m21:31:54.758156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E38A63100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3B2117B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3B211540>]}
+
+
+============================== 21:31:54.772409 | 4444ffe7-c3bf-4e38-8201-cad20b1d1bf4 ==============================
+[0m21:31:54.772409 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:31:54.773933 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:33:23.843211 [debug] [MainThread]: Starter project path: C:\Users\LENOVO\Desktop\Project2\.venv\lib\site-packages\dbt\include\starter_project
+[0m21:33:23.948342 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:33:23.950358 [info ] [MainThread]: Setting up your profile.
+[0m21:33:23.952399 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m21:33:23.956457 [debug] [MainThread]: Command `dbt init` failed at 21:33:23.955417 after 89.35 seconds
+[0m21:33:23.957447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E38A63100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3B257940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3B257A30>]}
+[0m21:33:23.958434 [debug] [MainThread]: Flushing usage events
+[0m21:33:42.463677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284B3D63160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284B6619840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284B66195D0>]}
+
+
+============================== 21:33:42.469870 | 426c2e46-74c3-417f-8281-bb526d44f18a ==============================
+[0m21:33:42.469870 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:33:42.470863 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m21:33:56.400874 [info ] [MainThread]: A project called data_warehouse already exists here.
+[0m21:33:56.404443 [debug] [MainThread]: Command `dbt init` succeeded at 21:33:56.403918 after 14.07 seconds
+[0m21:33:56.405485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284B3D63160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284B66199C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284B66196C0>]}
+[0m21:33:56.406722 [debug] [MainThread]: Flushing usage events
+[0m21:34:56.409045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0B06630D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0B2E157B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0B2E15540>]}
+
+
+============================== 21:34:56.409045 | c6fa82fd-fd9b-4bdc-931c-7d0741f4dadb ==============================
+[0m21:34:56.409045 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:34:56.409045 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m21:35:02.459538 [debug] [MainThread]: Starter project path: C:\Users\LENOVO\Desktop\Project2\.venv\lib\site-packages\dbt\include\starter_project
+[0m21:35:02.534919 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:35:02.536254 [info ] [MainThread]: Setting up your profile.
+[0m21:35:02.538451 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m21:35:02.544510 [debug] [MainThread]: Command `dbt init` failed at 21:35:02.543490 after 6.28 seconds
+[0m21:35:02.546833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0B06630D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0B2E577F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0B2E578E0>]}
+[0m21:35:02.547848 [debug] [MainThread]: Flushing usage events
+[0m21:35:15.594655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026067763160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002606A119840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002606A1195D0>]}
+
+
+============================== 21:35:15.600222 | 31142ae2-6171-4598-8037-cef3a30d1946 ==============================
+[0m21:35:15.600222 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:35:15.602509 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:35:28.101901 [debug] [MainThread]: Starter project path: C:\Users\LENOVO\Desktop\Project2\.venv\lib\site-packages\dbt\include\starter_project
+[0m21:35:28.170926 [info ] [MainThread]: 
+Your new dbt project "data_warehouse1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:35:28.178038 [info ] [MainThread]: Setting up your profile.
+[0m21:35:28.181458 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m21:35:28.185469 [debug] [MainThread]: Command `dbt init` failed at 21:35:28.185469 after 12.72 seconds
+[0m21:35:28.188500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026067763160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002606A157A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002606A157AC0>]}
+[0m21:35:28.190521 [debug] [MainThread]: Flushing usage events
+[0m21:37:53.994173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B26DD630D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B2705497B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B270549540>]}
+
+
+============================== 21:37:54.000181 | 91a2acc5-f2fa-4e24-9501-a4ea9a8517e5 ==============================
+[0m21:37:54.000181 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:37:54.002173 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:37:59.293679 [debug] [MainThread]: Starter project path: C:\Users\LENOVO\Desktop\Project2\.venv\lib\site-packages\dbt\include\starter_project
+[0m21:37:59.367521 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:37:59.370228 [info ] [MainThread]: Setting up your profile.
+[0m21:39:36.038083 [info ] [MainThread]: Profile data_warehouse written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:39:36.042469 [debug] [MainThread]: Command `dbt init` succeeded at 21:39:36.042469 after 102.19 seconds
+[0m21:39:36.044482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B26DD630D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B270557790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B2708590F0>]}
+[0m21:39:36.046112 [debug] [MainThread]: Flushing usage events
+[0m21:43:39.462978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016674E63070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001667764FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001667764F610>]}
+
+
+============================== 21:43:39.477833 | bd25b897-c991-47a1-a1a5-7744daa06842 ==============================
+[0m21:43:39.477833 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:43:39.479646 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:43:46.928158 [debug] [MainThread]: Starter project path: C:\Users\LENOVO\Desktop\Project2\dbt\env\lib\site-packages\dbt\include\starter_project
+[0m21:43:47.037879 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:43:47.037879 [info ] [MainThread]: Setting up your profile.
+[0m21:44:44.957300 [info ] [MainThread]: Profile data_warehouse written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:44:44.960313 [debug] [MainThread]: Command `dbt init` succeeded at 21:44:44.960313 after 65.63 seconds
+[0m21:44:44.962413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016674E63070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001667764FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016677772830>]}
+[0m21:44:44.964330 [debug] [MainThread]: Flushing usage events
+[0m21:44:54.817083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAD3962FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAD644FE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAD644F520>]}
+
+
+============================== 21:44:54.823727 | 219df1a0-bce5-49e8-a49b-4824829063f5 ==============================
+[0m21:44:54.823727 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:44:54.826039 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:45:02.072501 [info ] [MainThread]: A project called data_warehouse already exists here.
+[0m21:45:02.076785 [debug] [MainThread]: Command `dbt init` succeeded at 21:45:02.076252 after 7.41 seconds
+[0m21:45:02.076785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAD3962FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAD644FD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAD644F550>]}
+[0m21:45:02.076785 [debug] [MainThread]: Flushing usage events
+[0m21:45:16.765929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D93AC63070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D93D64FDF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D93D64FFD0>]}
+
+
+============================== 21:45:16.770929 | 1e802af6-607d-4d34-a609-f22be6e51958 ==============================
+[0m21:45:16.770929 [info ] [MainThread]: Running with dbt=1.8.5
+[0m21:45:16.773929 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m21:45:20.671399 [debug] [MainThread]: Starter project path: C:\Users\LENOVO\Desktop\Project2\dbt\env\lib\site-packages\dbt\include\starter_project
+[0m21:45:20.713508 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:45:20.717957 [info ] [MainThread]: Setting up your profile.
+[0m21:46:01.695275 [info ] [MainThread]: Profile data_warehouse written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:46:01.700006 [debug] [MainThread]: Command `dbt init` succeeded at 21:46:01.699008 after 45.07 seconds
+[0m21:46:01.701018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D93AC63070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D93D64FDF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D93D76A830>]}
+[0m21:46:01.703008 [debug] [MainThread]: Flushing usage events
